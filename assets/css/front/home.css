@@ -1,0 +1,170 @@
+
+/* SECTION SLIDER */
+
+
+#home-page {
+	width: 98vw;
+	height: 100vh;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+#home-page h1 {
+	margin: 0 2em;
+	font-size: 6em;
+	text-transform: uppercase;
+	text-shadow: 5px 0 0 #6067b1;
+    color: #747fef;
+}
+#home-page p {
+	font-size: 1.5em;
+    color: #a3a3a3;
+}
+
+.home-slider-cont {
+    height: 400px;
+    overflow: hidden;
+}
+
+#secondary-promo {
+	height: calc(50% - 7.5px);
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#latest-promo {
+	height: calc(50% - 7.5px);
+	overflow: hidden;
+}
+
+.home-additional-promo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/* SECTION VIP ADS */
+
+#vip-products {
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+/*@media screen and (max-width: 600px)   {*/
+	/*.product-grid {*/
+		/*overflow: hidden;*/
+		 /*margin-left: -15px;*/
+		 /*margin-right: -15px;*/
+	/*}*/
+/*}*/
+
+/*BLOCK WITH CATEGORY*/
+
+#home-category {
+    padding-bottom: 50px;
+}
+
+/*HOW WE WORKS*/
+
+#about-us {
+	background-image: url("/assets/media/img/bg-mens-clothing1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 500px;
+	position: relative;
+	color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+#about-us h2 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	position: relative;
+}
+
+#about-us:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.64);
+}
+
+.list-about-us {
+	padding-left: 0;
+    list-style-type: none;
+}
+
+.list-about-us li {
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 10px;
+    padding: 4px 9px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.list-about-us li p {
+    margin-bottom: 0;
+}
+
+.list-about-us-hidden {
+    position: absolute;
+    background: rgb(55, 71, 79);
+    z-index: 2;
+    padding: 10px;
+    border-radius: 0 16px 16px 16px;
+    left: 50%;
+    width: 15em;
+    display: none;
+    top: 0;
+}
+
+.list-about-us li p:first-child:hover + .list-about-us-hidden {
+    display: block;
+    left: 102%;
+}
+
+.list-buy li p:first-child:hover + .list-about-us-hidden {
+    left: inherit;
+    right: 102%;
+}
+
+.list-buy .list-about-us-hidden {
+    border-radius: 16px 0 16px 16px;
+}
+
+.h-lite {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.about-us-info p {
+    position: relative;
+    font-size: 1.1em;
+	text-align: justify;
+}
+
+.about-us-info {
+    padding-bottom: 30px;
+}
+
+/*TEXT ON THE BOTTOM PAGE*/
+
+#home-additionally {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#home-additionally p {
+	font-size: 0.8em;
+	color: #333333;
+	border-bottom: 1px solid rgba(158, 158, 158, 0.45);
+	padding-bottom: 23px;
+}
+

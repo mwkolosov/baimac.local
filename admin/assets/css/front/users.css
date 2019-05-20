@@ -1,0 +1,16 @@
+
+#adm-users .td:nth-child(1) { width: 3em; }
+#adm-users .td:nth-child(2) { flex: 1; }
+#adm-users .td:nth-child(3) { width: 10em; }
+#adm-users .td:nth-child(4) { width: 13em; }
+#adm-users .td:nth-child(5) { width: 9em; }
+
+#adm-users .toolbar {
+	width: 100%;
+	margin-top: 0.5em;
+}
+#adm-users .toolbar .btn {
+	padding: 0.45em 1em;
+	font-size: 0.8rem;
+}
+#adm-users .toolbar .btn + .btn { margin-left: 0.5em; }
